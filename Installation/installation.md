@@ -28,6 +28,12 @@
 
 ### 二、创建GitHub项目并在本地同步
 
+**准备工作：**
+
+①安装git并配置ssh
+
+②配置GitHub的用户名和邮箱
+
 1.注册GitHub账号
 
 ![](../image/8.png)
@@ -53,3 +59,33 @@
 ![](../image/13.png)
 
 (成功推送)
+
+### 三、本地安装VMware Workstation和CentOS操作系统
+
+1.前往https://www.vmware.com/cn.html下载VMware Workstation并安装
+
+![](../image/14.png)
+
+2.下载CentOS在桌面（方便添加）打开VMware workstation创建新虚拟机
+
+![](../image/15.png)
+
+3.命名虚拟机并设置磁盘大小
+
+![](../image/16.png)
+
+![](../image/17.png)
+
+4.选择中文并设置安装位置
+
+![](../image/18.png)
+
+5.创建root密码和用户名
+
+![](../image/19.png)
+
+6.设置完成后开机即可
+
+![](../image/20.png)
+
+(成功开机)

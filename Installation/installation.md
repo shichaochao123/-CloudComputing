@@ -6,7 +6,7 @@
 
 2.使用web shell登陆腾讯云服务器
 
-![](../image\2.png)
+![](../image/2.png)
 
 ![](../image/3.png)
 

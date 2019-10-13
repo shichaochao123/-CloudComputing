@@ -166,7 +166,7 @@ sudo chown -R apache:apache /var/www/html/*（对Apache服务器的目录以及w
 
 1.下载WordPress至当前用户的主目录并解压文件
 
-![](..\image\40.png)
+![](../image/40.png)
 
 2.使wordpress的内容能够被访问
 

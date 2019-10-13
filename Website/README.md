@@ -220,7 +220,7 @@ http://server_domain_name_or_IP（Web页面进一步配置、输入你的IP地�
 
 2.设置网站的标题，用户名和密码以及电子邮件等，点击**Install WordPress**，弹出确认页面,确认后点击login in
 
-![](C:\Users\14396\Desktop\GIT\image\49.png)
+![](../image/49.png)
 
 3.输入用户名和密码之后，进入WordPress的控制面板并稍作完善（**ip名106.54.29.191**）
 

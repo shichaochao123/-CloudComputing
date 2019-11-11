@@ -2,15 +2,15 @@
 
 用到的命令：
 
-`sudo yum check-update`更新应用程序数据库；
+`yum check-update`更新应用程序数据库；
 
 `curl -fsSL https://get.docker.com/ | sh`下载安装Docker；
 
-`sudo systemctl start docker`启动Docker；
+`systemctl start docker`启动Docker；
 
-`sudo systemctl status docker`验证Docker是否成功启动；
+`systemctl status docker`验证Docker是否成功启动；
 
-`sudo systemctl enable docker`开机自启；
+`systemctl enable docker`开机自启；
 
 `docker version`查看Docker版本；
 
@@ -77,6 +77,20 @@
 与实验一的安装过程一致，详情请参照：
 
 [Website](/Website/README.md)
+
+1.容器中安装apache
+
+![](../image/66.png)
+
+2.容器中安装php
+
+![](../image/68.png)
+
+3.容器中安装Mysql
+
+![](../image/69.png)
+
+
 
 本地浏览器进入localhost:8888查看是否成功
 

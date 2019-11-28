@@ -140,3 +140,43 @@ ex:`docker push 570521784/centos:7`
 
 ![](../image/64.png)
 
+### 五、Dockerfile的创建
+
+1.`docker build -t test .`构建镜像 注意test后有一个空格
+
+2.`docker run -dit -p 8080:80 test` 端口映射
+
+3.`docker exec -it 容器ID /bin/bash` 进入容器
+
+过程：
+
+1.编辑Dockerfile文件
+
+注：MariaDB client、common、compat、server四个文件要下载到镜像build目录中
+
+![](../image/70.png)
+
+2.编辑setup.sql文件用来支持Mysql
+
+![](../image/71.png)
+
+3.编辑server.conf用来支持Mysql
+
+![](../image/72.png)
+
+4.编辑start.sh启动脚本
+
+![](../image/73.png)
+
+5.本地浏览器进入localhost:8080查看是否成功
+
+配置过程：
+
+![](../image/74.png)
+
+![](../image/75.png)
+
+成功进入：
+
+![](../image/76.png)
+

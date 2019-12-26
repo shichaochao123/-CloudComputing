@@ -233,7 +233,7 @@ admin：
 
 ![](../image/91.png)
 
-![](..\image\90.png)
+![](../image/90.png)
 
 **<u>成功完成</u>**
 
